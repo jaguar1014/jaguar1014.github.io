@@ -55,9 +55,7 @@ section h2 {
 }
 
 .button-container {
-	
 	margin-top: 5%;
-	align: center;
 }
 
 .fa-star {
@@ -95,8 +93,7 @@ footer {
 footer address {
 	color:white;
 	line-height: 0.5em;
-	margin-top: 1%;
-	margin-left: 40%;
+	margin-top: 2%;
 }
 
 .interests{
@@ -155,6 +152,11 @@ footer address {
 
 #profile-img {
 	margin-left: 25%;
+}
+
+.logo {
+	height:30%;
+  	display:inline-block;
 }
 
 section:nth-child(odd) {

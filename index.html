@@ -23,6 +23,7 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
+          <li><a href="#jumbo">Home</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#work">Work</a></li>
           <li><a href="#education">Education</a></li>
@@ -30,44 +31,42 @@
         </ul>
       </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
-    </nav>	
+    </nav>
   </head>
 	<body>
     <div class="container-fluid">
-    
-      <div class="jumbotron">
+
+      <div class="jumbotron" id="jumbo">
         <div class="row">
-        <div class="col-xs-12 col-md-6">
-          <h1 class="text-center">Alyssa Hester</h1>
-          <br>
-          <p class="text-center">Developer. UVA Grad. Traveler. Soccer player. 23.</p>
+          <div class="col-md-12">
 
-
-            <div class="button-container">
-              <div class="row">
-                <div class="col-xs-12 col-md-2 col-xs-offset-2">
-                  <a class="btn btn-primary btn-lg" href="https://www.linkedin.com/in/alyssa-hester-4381a755" role="button"><i class="fa fa-linkedin fa-align-left" aria-hidden="true"></i> LinkedIn</a>
-                </div>
-                <div class="col-xs-12 col-md-2 col-md-offset-1">
-                 <a class="btn btn-primary btn-lg" href="documents/AlyssaHester_Resume.pdf" role="button"><i class="fa fa-download" aria-hidden="true"></i> Resume</a>
-                </div>
-                 <div class="col-xs-12 col-md-2 col-md-offset-1">
+            <div class="row">
+              <div class="col-md-6">
+                <h1 class="text-center">Alyssa Hester</h1>
+                <br>
+                  <p class="text-center">Developer. UVA Grad. Traveler. Soccer player. 23.</p>
+                <div class="row">
+                  <div class="col-md-2 col-offset-md-2">
+                    <a class="btn btn-primary btn-lg" href="https://www.linkedin.com/in/alyssa-hester-4381a755" role="button"><i class="fa fa-linkedin fa-align-left" aria-hidden="true"></i> LinkedIn</a>
+                  </div>
+                  <a class="btn btn-primary btn-lg" href="documents/AlyssaHester_Resume.pdf" role="button"><i class="fa fa-download" aria-hidden="true"></i> Resume</a>
                   <a class="btn btn-primary btn-lg" href="https://github.com/jaguar1014" role="button"><i class="fa fa-github-square" aria-hidden="true"></i> Github</a>
                 </div>
-             </div>
-            </div>
-        </div>
-       
-          
-          <div class="container-fluid profile-container">
-            <div class="col-xs-12 col-md-6">
-              <img id="profile-img" class="img-circle center-block img-responsive" src="images/profile.jpg">
+              </div>
+              <div class="col-md-6">
+                <div class="profile-container">
+                  <img id="profile-img" class="img-circle center-block img-responsive" src="images/profile.jpg">
+                </div>
+              </div>
             </div>
           </div>
         </div>
+
+
+
       </div>
-    </div>
-    
+
+
 
     <section id="skills">
       <h2>Skills</h2>
@@ -77,6 +76,10 @@
           <div class="col-xs-12 col-md-5">
             <div class="table-responsive">
               <table class="table table-hover">
+                 <colgroup>
+                  <col class="col-xs-6 col-md-8">
+                  <col class="col-xs-6 col-md-4">
+                </colgroup>
                 <thead>
                   <tr>
                     <th>Languages</th>
@@ -160,9 +163,13 @@
           <div class="col-xs-12 col-md-5">
             <div class="table-responsive">
               <table class="table table-hover">
+                <colgroup>
+                  <col class="col-xs-6 col-md-8">
+                  <col class="col-xs-6 col-md-4">
+                </colgroup>
                 <thead>
                   <tr>
-                    <th>Libraries and Frameworks</th>
+                    <th>Libraries/Frameworks</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -208,19 +215,49 @@
                   </tr>
                 </tbody>
               </table>
+               <div class="col-md-1">
+              </div>
             </div>
           </div>
         </div>
- 
+
     </section>
 
     <section id="work">
       <h2>Work</h2>
-      <div class="row">
-       
+			<div class="row">
+
         <div class="col-md-8 col-md-offset-4">
           <div class="wrapper">
-            <img class="center-block img-responsive" style="width:70%;height:70%" src="images/logo.png" alt="Counterpoint">
+            <a href="https://www.boozallen.com/">
+              <img class="center-block img-responsive" style="width:70%;height:70%" src="images/boozallen.jpg" alt="Booz Allen Hamilton">
+            </a>
+          </div>
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <h3 class="text-center">Staff Software Engineer</h3>
+          <h4 class="text-center">August 2016 -  Present</h4>
+          <ul>
+            <li>Acting ScrumMaster and developer for 9-person team</li>
+            <li>Developed cloud applications in Java and deployed using Docker and Mesosphere DC/OS</li>
+            <li>Leverages big-data technologies for enterprise-scale software engineering and data science development on AWS</li>
+						<li>Defines long term technical road maps with lead architects</li>
+						<li>Works closely with government clients to define technical requirements</li>
+            <li>Created web application using the MEAN stack and Leaflet.js</li>
+          </ul>
+        </div>
+      </div>
+      <br>
+
+      <div class="row">
+        <div class="col-md-8 col-md-offset-4">
+          <div class="wrapper">
+            <a href="http://c20g.com/">
+              <img class="center-block img-responsive" style="width:70%;height:70%" src="images/logo.png" alt="Counterpoint">
+            </a>
           </div>
         </div>
 
@@ -236,15 +273,15 @@
             <li>Assisted with the acquisition of new clients as a pre-sales engineer by writing and editing RFP responses</li>
           </ul>
         </div>
-        
+
       </div>
       <br>
       <div class="row">
-        
-        <div class="col-md-8 col-md-offset-4">
-          <div class="wrapper">
-            <img class="img-responsive" src="http://ldi.upenn.edu/sites/all/themes/ldi/logo.png" alt="Leonard Davis Institute">
-          </div>
+
+        <div class="col-md-12">
+          <a href="http://ldi.upenn.edu/">
+            <img class="img-responsive logo" src="http://ldi.upenn.edu/sites/all/themes/ldi/logo.png" alt="Leonard Davis Institute">
+          </a>
         </div>
       </div>
       <div class="row">
@@ -259,21 +296,41 @@
           </ul>
         </div>
       </div>
-    
+
     </section>
 
     <section id="education">
       <h2>Education</h2>
         <div class="container-fluid">
           <div class="row">
-            <div class="col-md-5">
-              <div class="img-wrapper">
-                <img class="img-responsive" src="images/uva_engineering.jpg" alt="UVA">
+
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <div class="media">
+                <div class="media-left">
+
+                    <img class="media-object img-thumbnail" src="images/uva_engineering.jpg" alt="UVA">
+
+                </div>
+              <div class="media-body">
+                <h3 class="media-heading">University of Virginia, Class of 2014</h3>
+                <h4 class="media-heading">Bachelor's of Science Biomedical Engineering, Engineering Business Minor</h4>
+                <h4 class="media-heading">Rodman Scholar</h4>
               </div>
             </div>
-            
-            <div  id="educationContent" class="col-md-6">
-              <h3>University of Virginia, Class of 2014</h3>
+          </div>
+        </div>
+
+
+
+            <div class="col-xs-12 col-md-5">
+              <div class="img-wrapper">
+                <img class="img-responsive media-object" src="images/uva_engineering.jpg" alt="UVA">
+              </div>
+            </div>
+
+            <div  id="educationContent" class="col-xs-12 col-md-6">
+              <h3>University of Virginia, 2014</h3>
               <h4>Bachelor's of Science Biomedical Engineering, Engineering Business Minor</h4>
               <h4>Rodman Scholar</h4>
             </div>
@@ -358,9 +415,9 @@
             </div>
           </div>
         </div>
-        
+
       </div>
-      
+
     </section>
     <div>
     </div>
@@ -373,14 +430,15 @@
     <script src="js/customfunctions.js"></script>
 	</body>
   <footer>
+    <div class="container-fluid">
       <div class="row">
-      </div>
-
-        <address>
+        <address class="text-center">
           <p><strong>Contact Information: </strong></p><br>
           <p><i class="fa fa-envelope-o"></i>  Email: alyssa.hester10@gmail.com</p><br>
           <p><i class="fa fa-phone"></i>  Phone: (703) 398-4050</p><br>
         </address>
+      </div>
+    </div>
 
 
   </footer>
