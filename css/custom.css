@@ -38,6 +38,10 @@ section h2 {
 
 }
 
+.button-wrapper {
+	margin-right: 4%;
+}
+
 
 .wrapper{
 	width: 40%;
@@ -111,7 +115,7 @@ footer address {
 }
 
 .overlay {
-	background-color: rgba(0, 0, 0, .75);
+	background-color: rgba(0, 0, 0, .50);
 	bottom: 0px;
 	left: 0px;
 	padding-top: 0px !important;
